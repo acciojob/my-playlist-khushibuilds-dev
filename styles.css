@@ -1,1 +1,45 @@
 /*  your css code here. If applicable */
+/* Additional CSS for body tag */
+body {
+    background-color: rgb(204, 204, 204);
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Heading styles */
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* Playlist styles */
+ul li {
+    list-style-type: none;
+    margin: 10px 0;
+    text-align: center;
+}
+
+ul li a {
+    text-decoration-line: none;
+    color: #0000ee;
+    font-size: 18px;
+}
+
+/* Video and Audio container classes styling */
+.player_one, .player_two {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 20px auto;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Responsive constraints for media tags inside containers */
+video, audio {
+    width: 100%;
+}
